@@ -1,20 +1,9 @@
 {
-    "name": "michalgugniewicz/teb-chan",
-    "description": "Forum obrazkowe",
-    "type": "project",
+    "name": "michal/gugniewicz",
     "autoload": {
         "psr-4": {
-            "MichalGugniewicz\\TebChan\\": "class/"
+            "Michal\\Gugniewicz\\": "src/"
         }
     },
-    "authors": [
-        {
-            "name": "Michał Gugniewicz",
-            "email": "michal.gugniewicz06@gmail.com"
-        }
-    ],
-    "require": {
-        "steampixel/simple-php-router": "^0.7.1",
-        "smarty/smarty": "^5.4"
-    }
+    "require": {}
 }
